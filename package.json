@@ -1,0 +1,10 @@
+{
+    "name": "enterprise-flow",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "typecheck": "pnpm --filter @enterprise-flow/contracts typecheck",
+        "test": "pnpm --filter @enterprise-flow/contracts test",
+        "build": "pnpm --filter @enterprise-flow/contracts build"
+    }
+}
