@@ -5,3 +5,7 @@ export type {
   OrganizationStatus,
   CreateOrganizationInput,
 } from "./organization.js";
+
+export { PERMISSIONS, ROLE_PERMISSIONS, canAccess } from "./permissions.js";
+
+export type { Resource, Action, Role, RolePermissions } from "./permissions.js";
