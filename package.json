@@ -3,8 +3,9 @@
     "version": "0.1.0",
     "private": true,
     "scripts": {
-        "typecheck": "pnpm --filter @enterprise-flow/contracts typecheck",
-        "test": "pnpm --filter @enterprise-flow/contracts test",
-        "build": "pnpm --filter @enterprise-flow/contracts build"
+        "dev:api": "pnpm --filter @enterprise-flow/api dev",
+        "build": "pnpm -r --sort build",
+        "typecheck": "pnpm -r --sort typecheck",
+        "test": "pnpm -r --sort test"
     }
 }
