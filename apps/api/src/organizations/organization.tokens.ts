@@ -1,0 +1,3 @@
+export const ORGANIZATION_REPOSITORY = Symbol("ORGANIZATION_REPOSITORY");
+
+export const ID_GENERATOR = Symbol("ID_GENERATOR");
