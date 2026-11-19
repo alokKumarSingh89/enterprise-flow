@@ -18,10 +18,12 @@
         "@nestjs/platform-express": "^11.0.0",
         "class-transformer": "^0.5.1",
         "class-validator": "^0.14.2",
+        "express": "^5.3.0",
         "reflect-metadata": "^0.2.2",
         "rxjs": "^7.8.1"
     },
     "devDependencies": {
+        "@types/express": "^5.0.6",
         "@types/node": "^22.15.0",
         "tsx": "^4.20.0",
         "typescript": "^5.9.3",
