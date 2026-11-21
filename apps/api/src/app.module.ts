@@ -9,9 +9,10 @@ import { HealthController } from "./health/health.controller.js";
 import { APP_INTERCEPTOR } from "@nestjs/core";
 import { RequestLoggingInterceptor } from "./common/interceptors/request-logging.interceptor.js";
 import { RequestIdMiddleware } from "./common/middleware/request-id.middleware.js";
+import { ObservabilityModule } from "./observability/observability.module.js";
 
 @Module({
-  imports: [OrganizationsModule],
+  imports: [OrganizationsModule, ObservabilityModule],
   controllers: [HealthController],
   providers: [
     {
